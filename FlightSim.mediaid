@@ -849,12 +849,6 @@
             <Hash Platform="Windows" Value="512674748" />
           </WObject>
         </File>
-        <File Name="obstacle_obstacle.wav">
-          <WObject ID="{575DE292-91A4-47CB-9477-B5BE5572D46D}">
-            <MediaID ID="622651067" />
-            <Hash Platform="Windows" Value="512674748" />
-          </WObject>
-        </File>
         <File Name="plus_hundred.wav">
           <WObject ID="{E6B81C25-0FFC-4F1B-A11B-54B7E0630E45}">
             <MediaID ID="190940915" />
@@ -1179,6 +1173,42 @@
             <Hash Platform="Windows" Value="512674748" />
           </WObject>
         </File>
+        <File Name="synoptic in 1.wav">
+          <WObject ID="{A16323C0-EFF2-454E-88E6-57E9CF409F77}">
+            <MediaID ID="108519323" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="synoptic in 2.wav">
+          <WObject ID="{CB698ED9-840D-4ECA-8461-8DE247700539}">
+            <MediaID ID="206077678" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="synoptic in 3.wav">
+          <WObject ID="{47542305-9CCC-4B1B-8451-42806D6BC5A7}">
+            <MediaID ID="650688723" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="synoptic out 1.wav">
+          <WObject ID="{1993058B-96EC-4B88-B745-E588AF1A27E0}">
+            <MediaID ID="176818291" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="synoptic out 2.wav">
+          <WObject ID="{C2DBBD14-153F-4DB3-9C5A-76581413A602}">
+            <MediaID ID="837405741" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="synoptic out 3.wav">
+          <WObject ID="{B02629CD-30A3-4904-9A18-8F37F0591811}">
+            <MediaID ID="52970593" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
         <File Name="taxi light off.wav">
           <WObject ID="{83F9B4C5-8D01-4459-90F7-66FED0B1C907}">
             <MediaID ID="374354200" />
@@ -1320,12 +1350,6 @@
         <File Name="wailer.wav">
           <WObject ID="{068B7655-4A49-46C7-99A1-7440F5607947}">
             <MediaID ID="51574697" />
-            <Hash Platform="Windows" Value="512674748" />
-          </WObject>
-        </File>
-        <File Name="windshear.wav">
-          <WObject ID="{8B380224-33F7-4AC4-95D8-C805D6B36D42}">
-            <MediaID ID="378105868" />
             <Hash Platform="Windows" Value="512674748" />
           </WObject>
         </File>

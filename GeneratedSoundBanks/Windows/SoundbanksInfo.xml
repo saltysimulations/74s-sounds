@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="701672557">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2019699816">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -82,7 +82,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2247706355" GUID="{732766E7-FA86-452E-A427-C85CB4EF4A39}" Language="SFX" Hash="2279973486">
+		<SoundBank Id="2247706355" GUID="{732766E7-FA86-452E-A427-C85CB4EF4A39}" Language="SFX" Hash="3157591058">
 			<ObjectPath>\SoundBanks\Salty_747\Salty_747</ObjectPath>
 			<ShortName>Salty_747</ShortName>
 			<Path>Salty_747.bnk</Path>
@@ -723,14 +723,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1505420985" Name="Play_Asobo_B747_8i_obstacle_obstacle" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_obstacle_obstacle" GUID="{25D27B71-0AE1-4915-82FD-ACE0AFD032B8}" DurationType="OneShot" DurationMin="1.445556" DurationMax="1.445556">
-					<IncludedMemoryFiles>
-						<File Id="622651067" Language="SFX">
-							<ShortName>obstacle_obstacle.wav</ShortName>
-							<Path>SFX\obstacle_obstacle_1E8ECBBC.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3613032553" Name="Play_Asobo_B747_8i_plus_hundred" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_plus_hundred" GUID="{E8661F7E-F785-428D-91AC-E08B4B0BF655}" DurationType="OneShot" DurationMin="0.804558" DurationMax="0.804558">
 					<IncludedMemoryFiles>
 						<File Id="190940915" Language="SFX">
@@ -1051,6 +1043,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1632144133" Name="Play_Asobo_B747_8i_synoptic_in" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_synoptic_in" GUID="{39DD6D1D-122A-4096-A494-9C03F8636210}" DurationType="OneShot" DurationMin="0.055488" DurationMax="0.061746">
+					<IncludedMemoryFiles>
+						<File Id="108519323" Language="SFX">
+							<ShortName>synoptic in 1.wav</ShortName>
+							<Path>SFX\synoptic in 1_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="206077678" Language="SFX">
+							<ShortName>synoptic in 2.wav</ShortName>
+							<Path>SFX\synoptic in 2_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="650688723" Language="SFX">
+							<ShortName>synoptic in 3.wav</ShortName>
+							<Path>SFX\synoptic in 3_1E8ECBBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1061291020" Name="Play_Asobo_B747_8i_synoptic_out" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_synoptic_out" GUID="{F20C7F5A-E9E9-4143-90C2-1478409BD6BB}" DurationType="OneShot" DurationMin="0.059977" DurationMax="0.123492">
+					<IncludedMemoryFiles>
+						<File Id="52970593" Language="SFX">
+							<ShortName>synoptic out 3.wav</ShortName>
+							<Path>SFX\synoptic out 3_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="176818291" Language="SFX">
+							<ShortName>synoptic out 1.wav</ShortName>
+							<Path>SFX\synoptic out 1_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="837405741" Language="SFX">
+							<ShortName>synoptic out 2.wav</ShortName>
+							<Path>SFX\synoptic out 2_1E8ECBBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="353678659" Name="Play_Asobo_B747_8i_taxi_light_off" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_taxi_light_off" GUID="{6D22DCB9-B409-4708-A46F-FA2B115EBAE6}" DurationType="OneShot" DurationMin="0.099138" DurationMax="0.099138">
 					<IncludedMemoryFiles>
 						<File Id="374354200" Language="SFX">
@@ -1203,14 +1227,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2967775321" Name="Play_Asobo_B747_8i_windshear" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_windshear" GUID="{EC038523-16C0-4E65-AFC5-6E6DF25AF6EE}" DurationType="OneShot" DurationMin="3.688390" DurationMax="3.688390">
-					<IncludedMemoryFiles>
-						<File Id="378105868" Language="SFX">
-							<ShortName>windshear.wav</ShortName>
-							<Path>SFX\windshear_1E8ECBBC.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="1174602627" Name="Play_Asobo_B747_8i_xpndr_knob" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_xpndr_knob" GUID="{C85BC429-9584-45AF-A42E-0C28A24AE51C}" DurationType="OneShot" DurationMin="0.142109" DurationMax="0.154490">
 					<IncludedMemoryFiles>
 						<File Id="988943060" Language="SFX">
@@ -1225,7 +1241,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2933379036" GUID="{D8066183-E2C0-4006-B99A-91E46B8ACA5F}" Language="SFX" Hash="711388404">
+		<SoundBank Id="2933379036" GUID="{D8066183-E2C0-4006-B99A-91E46B8ACA5F}" Language="SFX" Hash="275965241">
 			<ObjectPath>\SoundBanks\Default Work Unit\local_soundbank</ObjectPath>
 			<ShortName>local_soundbank</ShortName>
 			<Path>local_soundbank.bnk</Path>

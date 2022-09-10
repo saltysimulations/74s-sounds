@@ -148,31 +148,6 @@
 						<ActiveSource Name="minimums" ID="{4F406A6D-91D1-4453-8824-686FE9D49F97}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="obstacle_obstacle" ID="{ECC700AE-1A1B-4516-A023-31299E1E73DF}" ShortID="323336711">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="obstacle_obstacle" ID="{575DE292-91A4-47CB-9477-B5BE5572D46D}">
-							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>obstacle_obstacle.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="obstacle_obstacle" ID="{575DE292-91A4-47CB-9477-B5BE5572D46D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="plus_hundred" ID="{29950E83-6C35-496B-8C9A-E563EC338EA1}" ShortID="383797277">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -371,31 +346,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="too_low_terrain" ID="{77334450-A8B0-4224-9E83-EA90BB8D9C0F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="windshear" ID="{C79D802A-633A-4414-9EBB-1531EA081D65}" ShortID="1067997641">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="windshear" ID="{8B380224-33F7-4AC4-95D8-C805D6B36D42}">
-							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
-								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>windshear.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="windshear" ID="{8B380224-33F7-4AC4-95D8-C805D6B36D42}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="wailer" ID="{E22567C2-9AEC-4460-BEB8-0EC1E86D6128}" ShortID="567687352">
@@ -5968,6 +5918,180 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="vor adf 4" ID="{71093053-7856-49F8-977A-8EE9E251DC65}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="synoptic in" ID="{E321E4FA-2887-4A68-9D66-C20813EF3663}" ShortID="504810005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="synoptic in 1" ID="{F63D7D69-2D56-4D22-929B-F57E6329B4EE}" ShortID="918238708">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="synoptic in 1" ID="{A16323C0-EFF2-454E-88E6-57E9CF409F77}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>synoptic in 1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="synoptic in 1" ID="{A16323C0-EFF2-454E-88E6-57E9CF409F77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="synoptic in 2" ID="{70F91C72-233C-46B4-A8BF-529D8C69DC36}" ShortID="93480277">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="synoptic in 2" ID="{CB698ED9-840D-4ECA-8461-8DE247700539}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>synoptic in 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="synoptic in 2" ID="{CB698ED9-840D-4ECA-8461-8DE247700539}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="synoptic in 3" ID="{003DA6B7-CFD1-4933-8386-E2CA351605C6}" ShortID="896512201">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="synoptic in 3" ID="{47542305-9CCC-4B1B-8451-42806D6BC5A7}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>synoptic in 3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="synoptic in 3" ID="{47542305-9CCC-4B1B-8451-42806D6BC5A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="synoptic out" ID="{9283E0AF-63E4-49C8-9B4A-BBA810164A3C}" ShortID="996993664">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="synoptic out 1" ID="{B7FBA6D3-34F3-4BC9-BAA3-E19B70257329}" ShortID="902371022">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="synoptic out 1" ID="{1993058B-96EC-4B88-B745-E588AF1A27E0}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>synoptic out 1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="synoptic out 1" ID="{1993058B-96EC-4B88-B745-E588AF1A27E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="synoptic out 2" ID="{1E880D55-9BC3-4415-A0DC-89596222347F}" ShortID="186463343">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="synoptic out 2" ID="{C2DBBD14-153F-4DB3-9C5A-76581413A602}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>synoptic out 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="synoptic out 2" ID="{C2DBBD14-153F-4DB3-9C5A-76581413A602}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="synoptic out 3" ID="{1BA81C14-4413-4FCB-9D9A-45ADC4B302FB}" ShortID="610638882">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="synoptic out 3" ID="{B02629CD-30A3-4904-9A18-8F37F0591811}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>synoptic out 3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="synoptic out 3" ID="{B02629CD-30A3-4904-9A18-8F37F0591811}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

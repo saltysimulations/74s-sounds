@@ -58,7 +58,6 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_B747_8I_MINIMUMS_KNOB = 2054732894U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_NAV_LIGHT_OFF = 1240026300U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_NAV_LIGHT_ON = 2944626678U;
-        static const AkUniqueID PLAY_ASOBO_B747_8I_OBSTACLE_OBSTACLE = 1505420985U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PLUS_HUNDRED = 3613032553U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PULL_UP = 1346834191U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PUSHBUTTON_IN = 1592018482U;
@@ -85,6 +84,8 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_B747_8I_STD_OUT = 1580065618U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_STROBE_LIGHT_OFF = 3065913352U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_STROBE_LIGHT_ON = 2932005522U;
+        static const AkUniqueID PLAY_ASOBO_B747_8I_SYNOPTIC_IN = 1632144133U;
+        static const AkUniqueID PLAY_ASOBO_B747_8I_SYNOPTIC_OUT = 1061291020U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_TAXI_LIGHT_OFF = 353678659U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_TAXI_LIGHT_ON = 1328775535U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_TERRAIN = 2177641851U;
@@ -99,7 +100,6 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_B747_8I_VOR_ADF_SWITCH = 2704732350U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_VS_KNOB = 1905707408U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_WAILER = 3154175190U;
-        static const AkUniqueID PLAY_ASOBO_B747_8I_WINDSHEAR = 2967775321U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_XPNDR_KNOB = 1174602627U;
     } // namespace EVENTS
 

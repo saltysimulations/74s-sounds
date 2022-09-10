@@ -87,20 +87,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_B747_8i_obstacle_obstacle" ID="{25D27B71-0AE1-4915-82FD-ACE0AFD032B8}">
-					<ChildrenList>
-						<Action Name="" ID="{4626B0A6-5A90-41C4-AAF4-6693429EA76C}" ShortID="1042194964">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="obstacle_obstacle" ID="{ECC700AE-1A1B-4516-A023-31299E1E73DF}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Asobo_B747_8i_plus_hundred" ID="{E8661F7E-F785-428D-91AC-E08B4B0BF655}">
 					<ChildrenList>
 						<Action Name="" ID="{08F67064-B791-42B6-A589-482B43F61A67}" ShortID="585153301">
@@ -194,20 +180,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="too_low_terrain" ID="{6F66A0FF-F43F-4502-84C2-DB83EB8EE8C6}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Asobo_B747_8i_windshear" ID="{EC038523-16C0-4E65-AFC5-6E6DF25AF6EE}">
-					<ChildrenList>
-						<Action Name="" ID="{302AB324-2E80-42EF-B28F-7C964E305A26}" ShortID="62654733">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="windshear" ID="{C79D802A-633A-4414-9EBB-1531EA081D65}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1230,6 +1202,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="radio swap button out" ID="{DB55CF94-A237-4AE0-95E1-180533C4F402}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_B747_8i_synoptic_in" ID="{39DD6D1D-122A-4096-A494-9C03F8636210}">
+					<ChildrenList>
+						<Action Name="" ID="{875B76DB-DBC5-4D6B-9DAB-4FFB94E0F93C}" ShortID="276474919">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="synoptic in" ID="{E321E4FA-2887-4A68-9D66-C20813EF3663}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_B747_8i_synoptic_out" ID="{F20C7F5A-E9E9-4143-90C2-1478409BD6BB}">
+					<ChildrenList>
+						<Action Name="" ID="{6DA93002-4380-4C11-BB64-C0DFEF46C87F}" ShortID="610518489">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="synoptic out" ID="{9283E0AF-63E4-49C8-9B4A-BBA810164A3C}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
