@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	308105247	Play_Asobo_B747_8i_radio_numpad_in			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_radio_numpad_in	
 	353678659	Play_Asobo_B747_8i_taxi_light_off			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_taxi_light_off	
 	434240719	Play_Asobo_B747_8i_map_mode_knob			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_map_mode_knob	
+	473156997	Play_Asobo_B747_8i_ptt_out			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_ptt_out	
 	489246088	Play_Asobo_B747_8i_landing_light_on			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_landing_light_on	
 	516273074	Play_Asobo_B747_8i_master_caution_press_in			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_master_caution_press_in	
 	603812818	Play_Asobo_B747_8i_uplink_chime			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_uplink_chime	
@@ -13,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	729674362	Play_Asobo_B747_8i_datalink_button_out			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_datalink_button_out	
 	773145223	Play_Asobo_B747_8i_datalink_button_in			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_datalink_button_in	
 	857296991	Play_Asobo_B747_8i_ias_mach_in			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_ias_mach_in	
+	1005434794	Play_Asobo_B747_8i_ptt_in			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_ptt_in	
 	1050359389	Play_Asobo_B747_8i_radio_button_out			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_radio_button_out	
 	1061291020	Play_Asobo_B747_8i_synoptic_out			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_synoptic_out	
 	1077883375	Play_Asobo_B747_8i_minimums			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_minimums	
@@ -139,6 +141,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	304698848	vs knob 4	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\vs knob 4_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\mcp\vs knob\vs knob 4		1566
 	318557585	hdg knob 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\hdg knob 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\mcp\heading knob\hdg knob 2		1151
 	318796805	squawk out 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\squawk out 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\pedestal\squawk out\squawk out 2		3468
+	319848069	ptt out 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\ptt out 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\glareshield\ptt out\ptt out 2		2553
 	324698771	datalink button out 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\datalink button out 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\glareshield\datalink button out\datalink button out 2		2811
 	330036435	radio baro right 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\radio baro right 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\efis\radio baro right\radio baro right 2		2095
 	336234418	dont_sink	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\dont_sink_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\dont_sink		22728
@@ -206,10 +209,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	680530506	hdg select push in 1	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\hdg select push in 1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\mcp\hdg select in\hdg select push in 1		2079
 	683798454	ias mach out 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\ias mach out 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\mcp\ias mach out\ias mach out 2		1458
 	687114158	cdu out 5	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\cdu out 5_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\cdu\cdu out\cdu out 5		1520
+	695320945	ptt in 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\ptt in 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\glareshield\ptt in\ptt in 2		2910
 	696455704	map mode knob 5	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\map mode knob 5_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\efis\map mode knob\map mode knob 5		1558
 	699698518	efis button press out 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\efis button press out 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\efis\efis button out\efis button press out 2		2047
 	708863167	airspeed knob 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\airspeed knob 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\mcp\airspeed knob\airspeed knob 2		1411
 	711678195	cdu in 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\cdu in 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\cdu\cdu in\cdu in 2		2376
+	711979396	ptt in 1	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\ptt in 1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\glareshield\ptt in\ptt in 1		2749
 	715778455	cdu out 3	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\cdu out 3_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\cdu\cdu out\cdu out 3		2122
 	717561471	transponder 2	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\transponder 2_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\pedestal\transponder knob\transponder 2		5280
 	718679900	map mode knob 4	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\map mode knob 4_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\efis\map mode knob\map mode knob 4		1666
@@ -258,6 +263,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	917158956	hdg knob 1	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\hdg knob 1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\mcp\heading knob\hdg knob 1		1411
 	918301104	squawk in 1	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\squawk in 1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\pedestal\squawk in\squawk in 1		2707
 	923708611	efis button press in 1	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\efis button press in 1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\efis\efis button in\efis button press in 1		3880
+	927998183	ptt out 1	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\ptt out 1_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\glareshield\ptt out\ptt out 1		2974
 	928751997	irs knob 3	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\irs knob 3_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\overhead\knobs\irs knob\irs knob 3		2871
 	928842206	nav light on	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\nav light on_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\overhead\lights\nav light on		5142
 	931326071	cdu in 5	X:\Documents\GitHub\74s-sounds\.cache\Windows\SFX\cdu in 5_1E8ECBBC.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\interior\cdu\cdu in\cdu in 5		1635

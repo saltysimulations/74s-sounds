@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>X:\Documents\GitHub\74s-sounds\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2247706355" GUID="{732766E7-FA86-452E-A427-C85CB4EF4A39}" Language="SFX" Hash="3157591058">
+		<SoundBank Id="2247706355" GUID="{732766E7-FA86-452E-A427-C85CB4EF4A39}" Language="SFX" Hash="553181486">
 			<ObjectPath>\SoundBanks\Salty_747\Salty_747</ObjectPath>
 			<ShortName>Salty_747</ShortName>
 			<Path>Salty_747.bnk</Path>
@@ -654,6 +654,30 @@
 						<File Id="190940915" Language="SFX">
 							<ShortName>plus_hundred.wav</ShortName>
 							<Path>SFX\plus_hundred_1E8ECBBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1005434794" Name="Play_Asobo_B747_8i_ptt_in" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_ptt_in" GUID="{D9C0C275-2DD7-47E8-BF82-BC5E1D034A9E}" DurationType="OneShot" DurationMin="0.105306" DurationMax="0.107846">
+					<IncludedMemoryFiles>
+						<File Id="695320945" Language="SFX">
+							<ShortName>ptt in 2.wav</ShortName>
+							<Path>SFX\ptt in 2_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="711979396" Language="SFX">
+							<ShortName>ptt in 1.wav</ShortName>
+							<Path>SFX\ptt in 1_1E8ECBBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="473156997" Name="Play_Asobo_B747_8i_ptt_out" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Salty_747\Play_Asobo_B747_8i_ptt_out" GUID="{6F360D97-962B-415F-B402-2C7BFA18F6CE}" DurationType="OneShot" DurationMin="0.087551" DurationMax="0.115465">
+					<IncludedMemoryFiles>
+						<File Id="319848069" Language="SFX">
+							<ShortName>ptt out 2.wav</ShortName>
+							<Path>SFX\ptt out 2_1E8ECBBC.wem</Path>
+						</File>
+						<File Id="927998183" Language="SFX">
+							<ShortName>ptt out 1.wav</ShortName>
+							<Path>SFX\ptt out 1_1E8ECBBC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -1235,6 +1235,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Asobo_B747_8i_ptt_in" ID="{D9C0C275-2DD7-47E8-BF82-BC5E1D034A9E}">
+					<ChildrenList>
+						<Action Name="" ID="{399400FA-8BAB-4E54-9A84-1B1BBB3E16EF}" ShortID="202122972">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ptt in" ID="{C9498CC6-8914-43DD-B4E3-AAD8FE10E923}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_B747_8i_ptt_out" ID="{6F360D97-962B-415F-B402-2C7BFA18F6CE}">
+					<ChildrenList>
+						<Action Name="" ID="{0F541866-6F42-4295-B7AC-1A4989678E56}" ShortID="167158222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ptt out" ID="{F46F90DC-2984-4BE8-8A38-73F3955C72DB}" WorkUnitID="{C3862C24-AEFC-46B2-81EF-CB48877CFDB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

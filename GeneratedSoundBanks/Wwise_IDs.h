@@ -59,6 +59,8 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_B747_8I_NAV_LIGHT_OFF = 1240026300U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_NAV_LIGHT_ON = 2944626678U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PLUS_HUNDRED = 3613032553U;
+        static const AkUniqueID PLAY_ASOBO_B747_8I_PTT_IN = 1005434794U;
+        static const AkUniqueID PLAY_ASOBO_B747_8I_PTT_OUT = 473156997U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PULL_UP = 1346834191U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PUSHBUTTON_IN = 1592018482U;
         static const AkUniqueID PLAY_ASOBO_B747_8I_PUSHBUTTON_OUT = 2119557645U;

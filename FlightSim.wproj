@@ -70,6 +70,29 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2014.1|Build=5248|VersionName=v2014.1.4|Config=Release"/>
+			
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEzMzc4IiBtYXNrPSJVSVRGNTMyNCIgZW5jPSIwIj48bGlj
+ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAi
+IGV4cGlyZXM9IjIwMjMtMDYtMDEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0i
+TWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIw
+MjMtMDYtMDEiICAvPjxsaWNlbnNlIGlkPSI3MCIgbmFtZT0iSW5kaWUgTGljZW5z
+ZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyMy0wNi0wMSIg
+IC8+PGxpY2Vuc2UgaWQ9IjYzIiBuYW1lPSJNYXN0ZXJpbmcgU3VpdGUiIHR5cGU9
+IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjMtMDYtMDEiICAvPjxsaWNl
+bnNlIGlkPSI3IiBuYW1lPSJTb3VuZFNlZWQgQnVuZGxlIChJbXBhY3QsIEFpciki
+IHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjMtMDYtMDEiICAv
+PjxsaWNlbnNlIGlkPSI2IiBuYW1lPSJXd2lzZSBDb252b2x1dGlvbiBSZXZlcmIi
+IHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjMtMDYtMDEiICAv
+PjxwbHVnaW4gaWQ9IjEyMTg5Njk5IiBuYW1lPSJNYXN0ZXJpbmcgU3VpdGUiIGxp
+Y2Vuc2U9IjYzIiAvPjxwbHVnaW4gaWQ9IjgzMjMwNzUiIG5hbWU9Ild3aXNlIENv
+bnZvbHV0aW9uIFJldmVyYiIgbGljZW5zZT0iNiIgLz48L3Byb2plY3Q+|Sz7cnPu
+hsK9zTogpqIZ9En+mVoO2WWyWWZ0G9XVJv9R49OYP0RbhYtm9z51/kqYCIBJ8R6y
+rlJjoIp+mF+udaSOZm27cSTozumrCLPrkic15xnCGg+MK4nJQMkcwrby9m8RPV72
+RgUWd5x5xXv/Tu1g89X1duQiJWD2wJSQC6mHov9lnkxDeZ/44/pDEicVSRnvpi2v
+dpWh74tD30J6Laaf3TyftBkeoS60emrA6cZcAYKSMoBLaSASL9dWZ2mJTEK2Amgl
+5OSbJoojmjF2lbRMIirxAldfdRIPLwLZZ8b4BivoTQWWb2hH1drWKmP85Gxx9voF
+UvYRcD7v4nfoa8Q==
+"/>
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>

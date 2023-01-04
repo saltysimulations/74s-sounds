@@ -855,6 +855,30 @@
             <Hash Platform="Windows" Value="512674748" />
           </WObject>
         </File>
+        <File Name="ptt in 1.wav">
+          <WObject ID="{D71C822F-E749-4E9E-AB37-7791BFC2E467}">
+            <MediaID ID="711979396" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="ptt in 2.wav">
+          <WObject ID="{C46F725B-EC30-4419-8D0E-A5ECF5804938}">
+            <MediaID ID="695320945" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="ptt out 1.wav">
+          <WObject ID="{BF13AA2F-E231-4677-B198-BE5DB87C4694}">
+            <MediaID ID="927998183" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
+        <File Name="ptt out 2.wav">
+          <WObject ID="{C4D5C1EC-BABF-467F-97B9-CCA2E36CF9EE}">
+            <MediaID ID="319848069" />
+            <Hash Platform="Windows" Value="512674748" />
+          </WObject>
+        </File>
         <File Name="pull_up.wav">
           <WObject ID="{D0C7C2FA-D283-4377-B7C2-665D913E2322}">
             <MediaID ID="1037597979" />
